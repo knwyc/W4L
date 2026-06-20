@@ -371,3 +371,22 @@ button:hover {
         padding: 14px;
     }
 }
+.history-day-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.log-name-input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #fff;
+    font-style: italic;
+    flex: 1;
+}
+
+.log-name-input:hover,
+.log-name-input:focus {
+    border-color: rgba(255, 255, 255, 0.3);
+}

@@ -178,7 +178,7 @@ function render() {
         html += '<div class="set">';
         html += '<span class="set-label">Set ' + (setIndex + 1) + '</span>';
         html += '<input type="number" min="0" placeholder="reps" value="' + set.reps + '" onchange="updateSet(' + exIndex + ',' + setIndex + ',\'reps\',this.value)">';
-        html += '<input type="number" min="0" placeholder="kg" value="' + set.weight + '" onchange="updateSet(' + exIndex + ',' + setIndex + ',\'weight\',this.value)">';
+        html += '<input type="text" inputmode="decimal" min="0" placeholder="kg" value="' + set.weight + '" onchange="updateSet(' + exIndex + ',' + setIndex + ',\'weight\',this.value)">';
         html += '<button onclick="removeSet(' + exIndex + ',' + setIndex + ')">X</button>';
         html += '</div>';
       });
